@@ -1,0 +1,7 @@
+dist/
+node_modules/
+eslint-report.xml
+.idea/
+build/
+*zip
+*.tgz
