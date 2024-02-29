@@ -5,6 +5,8 @@
   "keywords": [
     "prettier"
   ],
+  "homepage": "https://github.com/Forsakringskassan/prettier-config",
+  "bugs": "https://github.com/Forsakringskassan/prettier-config/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/Forsakringskassan/prettier-config.git"
@@ -41,36 +43,18 @@
     "prettier": "2.8.8"
   },
   "devDependencies": {
-    "@forsakringskassan/commitlint-config": "0.9.6",
-    "@forsakringskassan/eslint-config": "9.7.13",
+    "@forsakringskassan/commitlint-config": "1.2.0",
+    "@forsakringskassan/eslint-config": "10.2.0",
     "husky": "8.0.3",
     "lint-staged": "13.2.3",
+    "npm-pkg-lint": "2.1.0",
     "ts-node": "10.9.2"
   },
-  "peerDependencies": {
-    "prettier": "^2"
-  },
   "engines": {
-    "node": ">= 14",
+    "node": ">= 16",
     "npm": ">= 7"
   },
   "release": {
     "extends": "@forsakringskassan/semantic-release-config"
-  },
-  "renovate": {
-    "extends": [
-      "local>npm-packages/renovate-config-fk:lib"
-    ],
-    "packageRules": [
-      {
-        "matchPackageNames": [
-          "prettier"
-        ],
-        "matchDepTypes": [
-          "dependencies"
-        ],
-        "rangeStrategy": "pin"
-      }
-    ]
   }
 }

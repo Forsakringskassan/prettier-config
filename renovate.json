@@ -1,0 +1,10 @@
+{
+    "extends": ["local>forsakringskassan/renovate-config:lib"],
+    "packageRules": [
+        {
+            "matchPackageNames": ["prettier"],
+            "matchDepTypes": ["dependencies"],
+            "rangeStrategy": "pin"
+        }
+    ]
+}
