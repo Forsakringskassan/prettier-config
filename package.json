@@ -45,7 +45,7 @@
   "devDependencies": {
     "@forsakringskassan/commitlint-config": "1.2.1",
     "@forsakringskassan/eslint-config": "10.3.0",
-    "husky": "8.0.3",
+    "husky": "9.0.11",
     "lint-staged": "13.3.0",
     "npm-pkg-lint": "2.2.0",
     "ts-node": "10.9.2"
