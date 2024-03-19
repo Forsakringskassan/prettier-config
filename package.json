@@ -40,7 +40,7 @@
   },
   "prettier": "./index.js",
   "dependencies": {
-    "prettier": "2.8.8"
+    "prettier": "3.2.5"
   },
   "devDependencies": {
     "@forsakringskassan/commitlint-config": "1.2.1",
