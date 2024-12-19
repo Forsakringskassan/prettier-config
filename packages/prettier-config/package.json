@@ -1,0 +1,31 @@
+{
+  "name": "@forsakringskassan/prettier-config",
+  "version": "2.1.2",
+  "description": "FK Prettier Config",
+  "keywords": [
+    "prettier"
+  ],
+  "homepage": "https://github.com/Forsakringskassan/prettier-config",
+  "bugs": "https://github.com/Forsakringskassan/prettier-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Forsakringskassan/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "Försäkringskassan",
+  "main": "index.js",
+  "bin": {
+    "prettier": "prettier.cjs"
+  },
+  "files": [
+    "index.js",
+    "prettier.cjs"
+  ],
+  "dependencies": {
+    "prettier": "3.4.2"
+  },
+  "engines": {
+    "node": ">= 16",
+    "npm": ">= 7"
+  }
+}
