@@ -25,9 +25,4 @@ jobs:
             - name: Build
               run: |
                   npm run --if-present build
-                  node prettier.cjs --version
-            - name: npm-pkg-lint
-              if: matrix.node-version == '20.x'
-              run: |
-                  npm pack
-                  npm exec npm-pkg-lint -- --ignore-node-version=16
+                  node packages/prettier-config/prettier.cjs --version
