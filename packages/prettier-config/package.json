@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/Forsakringskassan/prettier-config.git"
   },
+  "scripts": {
+    "test": "node prettier.cjs --version"
+  },
   "license": "MIT",
   "author": "Försäkringskassan",
   "main": "index.js",

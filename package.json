@@ -26,8 +26,8 @@
     "prettier": "prettier .",
     "prettier:check": "npm run prettier -- --check",
     "prettier:write": "npm run prettier -- --write",
-    "test": "npm run eslint && npm run prettier:check",
-    "posttest": "node prettier.cjs --version"
+    "pretest": "npm run eslint && npm run prettier:check",
+    "test": "lerna run test"
   },
   "commitlint": {
     "extends": "@forsakringskassan/commitlint-config/no-jira"

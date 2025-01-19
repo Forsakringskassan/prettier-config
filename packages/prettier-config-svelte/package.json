@@ -6,7 +6,8 @@
     "prettier"
   ],
   "scripts": {
-    "build": "node generate.mjs"
+    "build": "node generate.mjs",
+    "test": "node prettier.cjs --version"
   },
   "homepage": "https://github.com/Forsakringskassan/prettier-config",
   "bugs": "https://github.com/Forsakringskassan/prettier-config/issues",
