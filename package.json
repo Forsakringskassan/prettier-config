@@ -42,7 +42,7 @@
     "@forsakringskassan/eslint-config": "11.9.6",
     "husky": "9.1.7",
     "lerna": "8.2.2",
-    "lint-staged": "15.5.2",
+    "lint-staged": "16.0.0",
     "npm-pkg-lint": "3.10.11",
     "prettier": "3.5.3"
   },
