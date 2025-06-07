@@ -38,7 +38,7 @@
     "@forsakringskassan/eslint-config": "11.9.10",
     "husky": "9.1.7",
     "lerna": "8.2.2",
-    "npm-pkg-lint": "3.10.12",
+    "npm-pkg-lint": "4.0.0",
     "prettier": "3.5.3"
   },
   "engines": {
