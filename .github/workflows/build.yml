@@ -18,9 +18,9 @@ jobs:
             - name: Install dependencies
               run: |
                   npm ci
-            - name: Test
-              run: npm test
             - name: Build
               run: |
                   npm run --if-present build
                   node packages/prettier-config/prettier.cjs --version
+            - name: Test
+              run: npm test
