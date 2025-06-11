@@ -1,8 +1,8 @@
 {
   "name": "@forsakringskassan/prettier-config-monorepo",
   "version": "3.0.5",
-  "description": "FK Prettier Config Monorepo",
   "private": true,
+  "description": "FK Prettier Config Monorepo",
   "keywords": [
     "prettier"
   ],
@@ -33,6 +33,9 @@
     "extends": "@forsakringskassan/commitlint-config/no-jira"
   },
   "prettier": "./packages/prettier-config/dist/index.mjs",
+  "release": {
+    "extends": "@forsakringskassan/semantic-release-monorepo-config"
+  },
   "devDependencies": {
     "@forsakringskassan/commitlint-config": "2.0.2",
     "@forsakringskassan/eslint-config": "11.9.10",
@@ -45,8 +48,5 @@
   "engines": {
     "node": ">= 20",
     "npm": ">= 9"
-  },
-  "release": {
-    "extends": "@forsakringskassan/semantic-release-monorepo-config"
   }
 }
