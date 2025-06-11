@@ -30,6 +30,9 @@
   "scripts": {
     "prebuild": "tsc",
     "build": "node build.mjs",
+    "prepack": "release-prepack --bundle --retain-scripts",
+    "postpack": "release-postpack",
+    "prepublishOnly": "release-prepublish --bundle --retain-scripts",
     "test": "node prettier.cjs --version"
   },
   "dependencies": {
@@ -46,5 +49,8 @@
   "engines": {
     "node": ">= 20",
     "npm": ">= 9"
-  }
+  },
+  "externalDependencies": [
+    "prettier"
+  ]
 }
