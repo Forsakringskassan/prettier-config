@@ -1,6 +1,7 @@
 import { type Config } from "prettier";
 
 const config = {
+    plugins: [import.meta.resolve("prettier-plugin-packagejson")],
     singleQuote: false,
     arrowParens: "always",
     tabWidth: 4,

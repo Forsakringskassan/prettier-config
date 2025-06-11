@@ -3,7 +3,7 @@ import mainConfig from "@forsakringskassan/prettier-config";
 
 const config = {
     ...mainConfig,
-    plugins: ["prettier-plugin-svelte"],
+    plugins: [...mainConfig.plugins, "prettier-plugin-svelte"],
     overrides: [
         ...mainConfig.overrides,
         { files: "*.svelte", options: { parser: "svelte" } },

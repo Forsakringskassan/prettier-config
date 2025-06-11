@@ -36,7 +36,8 @@
     "test": "node prettier.cjs --version"
   },
   "dependencies": {
-    "prettier": "3.5.3"
+    "prettier": "3.5.3",
+    "prettier-plugin-packagejson": "2.5.15"
   },
   "devDependencies": {
     "@tsconfig/node20": "20.1.5",
@@ -45,10 +46,11 @@
     "typescript": "5.8.3"
   },
   "engines": {
-    "node": ">= 20",
+    "node": ">= 20.6.0",
     "npm": ">= 9"
   },
   "externalDependencies": [
-    "prettier"
+    "prettier",
+    "prettier-plugin-packagejson"
   ]
 }
