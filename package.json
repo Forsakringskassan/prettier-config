@@ -32,10 +32,11 @@
   "commitlint": {
     "extends": "@forsakringskassan/commitlint-config/no-jira"
   },
-  "prettier": "./packages/prettier-config/index.js",
+  "prettier": "./packages/prettier-config/dist/index.mjs",
   "devDependencies": {
     "@forsakringskassan/commitlint-config": "2.0.2",
     "@forsakringskassan/eslint-config": "11.9.10",
+    "@forsakringskassan/eslint-config-typescript": "11.9.10",
     "husky": "9.1.7",
     "lerna": "8.2.2",
     "npm-pkg-lint": "4.0.0",

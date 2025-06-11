@@ -5,6 +5,7 @@
   "keywords": [
     "prettier"
   ],
+  "type": "module",
   "homepage": "https://github.com/Forsakringskassan/prettier-config",
   "bugs": "https://github.com/Forsakringskassan/prettier-config/issues",
   "repository": {
@@ -12,16 +13,23 @@
     "url": "git+https://github.com/Forsakringskassan/prettier-config.git"
   },
   "scripts": {
+    "prebuild": "tsc",
+    "build": "node build.mjs",
     "test": "node prettier.cjs --version"
   },
   "license": "MIT",
   "author": "Försäkringskassan",
-  "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    }
+  },
   "bin": {
     "prettier": "prettier.cjs"
   },
   "files": [
-    "index.js",
+    "dist",
     "prettier.cjs"
   ],
   "dependencies": {
@@ -30,5 +38,11 @@
   "engines": {
     "node": ">= 20",
     "npm": ">= 9"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "20.1.5",
+    "@tsconfig/strictest": "2.0.5",
+    "esbuild": "0.25.5",
+    "typescript": "5.8.3"
   }
 }

@@ -1,4 +1,6 @@
-module.exports = {
+import { type Config } from "prettier";
+
+const config = {
     singleQuote: false,
     arrowParens: "always",
     tabWidth: 4,
@@ -35,4 +37,6 @@ module.exports = {
             },
         },
     ],
-};
+} satisfies Config;
+
+export default config;
