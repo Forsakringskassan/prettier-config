@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.1.1 (2025-06-18)
+
+### Bug Fixes
+
+* **@forsakringskassan/prettier-config:** resolve plugin file path, fixes vsCode resolve issue for Windows users 4cb3360
+
 ## 3.1.0 (2025-06-13)
 
 ### Features

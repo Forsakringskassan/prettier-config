@@ -1,6 +1,6 @@
 {
   "name": "@forsakringskassan/prettier-config-svelte",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "FK Prettier Svelte Config",
   "keywords": [
     "prettier"
@@ -40,7 +40,7 @@
     "prettier-plugin-svelte": "^3.3.2"
   },
   "devDependencies": {
-    "@forsakringskassan/prettier-config": "3.1.0",
+    "@forsakringskassan/prettier-config": "3.1.1",
     "@tsconfig/node20": "20.1.6",
     "@tsconfig/strictest": "2.0.5",
     "esbuild": "0.25.5",
