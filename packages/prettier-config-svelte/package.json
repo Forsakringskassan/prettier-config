@@ -36,7 +36,7 @@
     "test": "node prettier.cjs --version"
   },
   "dependencies": {
-    "prettier": "3.6.1",
+    "prettier": "3.6.2",
     "prettier-plugin-svelte": "^3.3.2"
   },
   "devDependencies": {
