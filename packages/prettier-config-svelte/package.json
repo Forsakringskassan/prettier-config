@@ -53,6 +53,7 @@
   },
   "externalDependencies": [
     "prettier",
-    "prettier-plugin-packagejson"
+    "prettier-plugin-packagejson",
+    "prettier-plugin-svelte"
   ]
 }
