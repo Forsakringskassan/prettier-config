@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 3.1.4 (2025-06-30)
+
+### Bug Fixes
+
+* **deps:** add missing prettier-plugin-svelte dependecy 4b03f78
+* **deps:** update dependency prettier-plugin-packagejson to v2.5.17 cba96b4
+
 ## 3.1.3 (2025-06-30)
 
 ### Bug Fixes
