@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.1.7 (2025-07-25)
+
+### Bug Fixes
+
+* **deps:** update dependency prettier-plugin-packagejson to v2.5.19 b4c9678
+
 ## 3.1.6 (2025-07-11)
 
 ### Bug Fixes
