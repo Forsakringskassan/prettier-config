@@ -1,5 +1,5 @@
-import { type Config } from "prettier";
 import mainConfig from "@forsakringskassan/prettier-config";
+import { type Config } from "prettier";
 
 const config = {
     ...mainConfig,
