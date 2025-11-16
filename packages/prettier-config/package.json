@@ -40,7 +40,7 @@
     "prettier-plugin-packagejson": "2.5.19"
   },
   "devDependencies": {
-    "@tsconfig/node20": "20.1.6",
+    "@tsconfig/node20": "20.1.7",
     "@tsconfig/strictest": "2.0.7",
     "esbuild": "0.27.0",
     "typescript": "5.9.3"
