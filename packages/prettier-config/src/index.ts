@@ -1,10 +1,11 @@
-import { fileURLToPath } from "url";
 import { type Config } from "prettier";
 
+/* this import is being rewritten by build.mjs directly to the esm/cjs
+ * versions, this file is only used by tsc for type-checking  */
+import { resolveModulePath } from "./resolve-module-path";
+
 const config = {
-    plugins: [
-        fileURLToPath(import.meta.resolve("prettier-plugin-packagejson")),
-    ],
+    plugins: [resolveModulePath("prettier-plugin-packagejson")],
     singleQuote: false,
     arrowParens: "always",
     tabWidth: 4,

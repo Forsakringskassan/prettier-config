@@ -8,15 +8,20 @@ async function readJsonFile(filename) {
 
 const { externalDependencies } = await readJsonFile("package.json");
 
-await build({
-    entryPoints: ["src/index.ts"],
-    bundle: true,
-    outdir: "dist",
-    format: "esm",
-    platform: "node",
-    target: "node20",
-    outExtension: {
-        ".js": ".mjs",
-    },
-    external: externalDependencies,
-});
+for (const { format, extension } of [
+    { format: "cjs", extension: ".cjs" },
+    { format: "esm", extension: ".mjs" },
+]) {
+    await build({
+        entryPoints: ["src/index.ts"],
+        bundle: true,
+        outdir: "dist",
+        format,
+        platform: "node",
+        target: "node20",
+        outExtension: {
+            ".js": extension,
+        },
+        external: externalDependencies,
+    });
+}
