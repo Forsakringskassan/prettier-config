@@ -33,6 +33,9 @@
   },
   "prettier": "./packages/prettier-config/dist/index.mjs",
   "release": {
+    "branches": [
+      "feature/shared-release-action"
+    ],
     "extends": "@forsakringskassan/semantic-release-monorepo-config"
   },
   "devDependencies": {
