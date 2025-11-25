@@ -1,0 +1,21 @@
+name: "Forsakringskassan/prettier-config"
+author: Försäkringskassan
+description: |
+    Github action to run prettier
+
+branding:
+    icon: git-pull-request
+    color: blue
+
+runs:
+    using: composite
+    steps:
+        - name: Read package.json
+          id: pkg-json
+          shell: bash
+          run: |
+              echo "prettier=$(cat package.json | jq -r '.prettier // ""')" | tee -a "$GITHUB_OUTPUT"
+        - name: Prettier
+          if: steps.pkg-json.outputs.prettier != ''
+          shell: bash
+          run: npm exec prettier -- --check .
