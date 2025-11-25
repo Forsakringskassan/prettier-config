@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 3.2.0 (2025-11-25)
+
+### Features
+
+* **@forsakringskassan/prettier-config-svelte, @forsakringskassan/prettier-config:** enable hybrid esm/cjs builds for prettier v2 compatibility (used by jest) b05de91
+* add github action to run prettier 7b70750
+
 ## 3.1.7 (2025-07-25)
 
 ### Bug Fixes
