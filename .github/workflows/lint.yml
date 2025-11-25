@@ -23,4 +23,4 @@ jobs:
               run: npm run prettier:check
             - name: ESLint
               if: success() || failure()
-              run: npm run eslint -- --max-warnings 0
+              uses: Forsakringskassan/eslint-config@v13.2.2
