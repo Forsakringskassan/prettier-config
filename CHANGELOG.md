@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.2.1 (2025-11-27)
+
+### Bug Fixes
+
+* **@forsakringskassan/prettier-config-svelte:** fix "`import_meta.resolve` is not a function" 11ce6fd
+
 ## 3.2.0 (2025-11-25)
 
 ### Features
