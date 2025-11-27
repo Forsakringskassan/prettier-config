@@ -22,6 +22,9 @@ for (const { format, extension } of [
         outExtension: {
             ".js": extension,
         },
+        alias: {
+            "@forsakringskassan/prettier-config": `../prettier-config/dist/index${extension}`,
+        },
         external: externalDependencies,
     });
 }
