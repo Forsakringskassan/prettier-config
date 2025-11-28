@@ -16,7 +16,7 @@ for (const { format, extension } of [
     { format: "esm", extension: ".mjs" },
 ]) {
     await build({
-        entryPoints: ["src/index.ts"],
+        entryPoints: ["src/index.ts", "src/sort-package-json.ts"],
         bundle: true,
         outdir: "dist",
         format,
@@ -26,6 +26,9 @@ for (const { format, extension } of [
             ".js": extension,
         },
         external: externalDependencies,
+        define: {
+            "process.env.EXTENSION": JSON.stringify(extension),
+        },
         plugins: [
             {
                 name: "local/resolve-module-path",
