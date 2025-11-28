@@ -24,6 +24,7 @@ jobs:
               run: |
                   npm run --if-present build
                   node packages/prettier-config/prettier.cjs --version
+                  find packages/*/dist -type f | sort
             - name: Test
               run: |
                   npm test --ignore-scripts
