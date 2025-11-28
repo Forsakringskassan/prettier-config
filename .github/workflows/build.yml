@@ -22,4 +22,6 @@ jobs:
                   npm run --if-present build
                   node packages/prettier-config/prettier.cjs --version
             - name: Test
-              run: npm test --ignore-scripts
+              run: |
+                  npm test --ignore-scripts
+                  npm run self-test

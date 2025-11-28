@@ -25,6 +25,7 @@
     "prettier": "prettier .",
     "prettier:check": "npm run prettier -- --check",
     "prettier:write": "npm run prettier -- --write",
+    "self-test": "bash -c 'node packages/*/dist/index.{cjs,mjs}'",
     "pretest": "npm run eslint && npm run prettier:check",
     "test": "lerna run test"
   },
