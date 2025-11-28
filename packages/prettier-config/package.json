@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "prettier": "3.7.2",
-    "prettier-plugin-packagejson": "2.5.19"
+    "sort-package-json": "3.4.0"
   },
   "devDependencies": {
     "@tsconfig/node20": "20.1.8",
@@ -51,7 +51,6 @@
     "npm": ">= 9"
   },
   "externalDependencies": [
-    "prettier",
-    "prettier-plugin-packagejson"
+    "prettier"
   ]
 }
