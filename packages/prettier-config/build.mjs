@@ -9,6 +9,8 @@ async function readJsonFile(filename) {
 
 const { externalDependencies } = await readJsonFile("package.json");
 
+await fs.rm("dist", { recursive: true, force: true });
+
 for (const { format, extension } of [
     { format: "cjs", extension: ".cjs" },
     { format: "esm", extension: ".mjs" },

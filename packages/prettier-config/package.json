@@ -29,8 +29,8 @@
     "prettier.cjs"
   ],
   "scripts": {
-    "prebuild": "tsc",
     "build": "node build.mjs",
+    "postbuild": "tsc",
     "prepack": "release-prepack --bundle --retain-scripts",
     "postpack": "release-postpack",
     "prepublishOnly": "release-prepublish --bundle --retain-scripts",
