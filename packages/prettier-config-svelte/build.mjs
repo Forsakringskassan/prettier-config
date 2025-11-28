@@ -16,7 +16,13 @@ for (const { format, extension } of [
     { format: "esm", extension: ".mjs" },
 ]) {
     await build({
-        entryPoints: ["src/index.ts"],
+        entryPoints: [
+            "src/index.ts",
+            {
+                in: "../prettier-config/src/sort-package-json.ts",
+                out: "sort-package-json",
+            },
+        ],
         bundle: true,
         outdir: "dist",
         format,
@@ -29,6 +35,9 @@ for (const { format, extension } of [
             "@forsakringskassan/prettier-config": `../prettier-config/src/index.ts`,
         },
         external: externalDependencies,
+        define: {
+            "process.env.EXTENSION": JSON.stringify(extension),
+        },
         plugins: [
             {
                 name: "local/resolve-module-path",
