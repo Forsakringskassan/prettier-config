@@ -1,6 +1,6 @@
 {
   "name": "@forsakringskassan/prettier-config-svelte",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "description": "FK Prettier Svelte Config",
   "keywords": [
     "prettier"

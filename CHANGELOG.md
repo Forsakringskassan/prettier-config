@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.2.2 (2025-11-28)
+
+### Bug Fixes
+
+* **@forsakringskassan/prettier-config-svelte:** fix "`import_prettier_config.default.plugins` is not iterable" 3a87552
+
 ## 3.2.1 (2025-11-27)
 
 ### Bug Fixes
