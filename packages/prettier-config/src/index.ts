@@ -4,8 +4,10 @@ import { type Config } from "prettier";
  * versions, this file is only used by tsc for type-checking  */
 import { resolveModulePath } from "./resolve-module-path";
 
+const extension = process.env["EXTENSION"] ?? ".cjs";
+
 const config = {
-    plugins: [resolveModulePath("prettier-plugin-packagejson")],
+    plugins: [resolveModulePath(`./sort-package-json${extension}`)],
     singleQuote: false,
     arrowParens: "always",
     tabWidth: 4,
