@@ -1,4 +1,5 @@
 import fs from "node:fs/promises";
+import path from "node:path";
 import { build } from "esbuild";
 
 async function readJsonFile(filename) {
@@ -23,8 +24,22 @@ for (const { format, extension } of [
             ".js": extension,
         },
         alias: {
-            "@forsakringskassan/prettier-config": `../prettier-config/dist/index${extension}`,
+            "@forsakringskassan/prettier-config": `../prettier-config/src/index.ts`,
         },
         external: externalDependencies,
+        plugins: [
+            {
+                name: "local/resolve-module-path",
+                setup(build) {
+                    build.onResolve({ filter: /resolve-module-path/ }, () => {
+                        return {
+                            path: path.resolve(
+                                `../prettier-config/src/resolve-module-path.${format}.ts`,
+                            ),
+                        };
+                    });
+                },
+            },
+        ],
     });
 }
