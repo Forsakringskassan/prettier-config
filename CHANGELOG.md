@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.2.3 (2025-12-01)
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v3.7.2 b733c48
+
 ## 3.2.2 (2025-11-28)
 
 ### Bug Fixes
