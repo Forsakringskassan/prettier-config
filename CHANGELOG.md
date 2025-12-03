@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 3.3.0 (2025-12-03)
+
+### Features
+
+* **deps:** bundle sort-package-json f65875c
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v3.7.3 df1506d
+* **deps:** update dependency sort-package-json to v3.5.0 47cdb0e
+
 ## 3.2.3 (2025-12-01)
 
 ### Bug Fixes
