@@ -37,7 +37,7 @@
     "test": "node prettier.cjs --version"
   },
   "dependencies": {
-    "prettier": "3.7.3",
+    "prettier": "3.7.4",
     "sort-package-json": "3.5.0"
   },
   "devDependencies": {
