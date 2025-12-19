@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 3.3.2 (2025-12-19)
+
+### Bug Fixes
+
+* **deps:** update dependency prettier-plugin-svelte to v3.4.1 4d1f83f
+* **deps:** update dependency sort-package-json to v3.6.0 d419c7c
+
 ## 3.3.1 (2025-12-12)
 
 ### Bug Fixes
