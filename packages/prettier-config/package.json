@@ -41,7 +41,7 @@
     "sort-package-json": "3.6.1"
   },
   "devDependencies": {
-    "@tsconfig/node20": "20.1.8",
+    "@tsconfig/node20": "20.1.9",
     "@tsconfig/strictest": "2.0.8",
     "esbuild": "0.27.2",
     "typescript": "5.9.3"
