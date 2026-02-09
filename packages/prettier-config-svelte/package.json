@@ -45,7 +45,7 @@
     "@forsakringskassan/prettier-config": "3.3.4",
     "@tsconfig/node20": "20.1.9",
     "@tsconfig/strictest": "2.0.8",
-    "esbuild": "0.27.2",
+    "esbuild": "0.27.3",
     "typescript": "5.9.3"
   },
   "engines": {
