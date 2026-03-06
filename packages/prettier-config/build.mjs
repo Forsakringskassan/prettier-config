@@ -3,7 +3,7 @@ import path from "node:path";
 import { build } from "esbuild";
 
 async function readJsonFile(filename) {
-    const content = await fs.readFile(filename, "utf-8");
+    const content = await fs.readFile(filename, "utf8");
     return JSON.parse(content);
 }
 
