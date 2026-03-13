@@ -42,7 +42,7 @@
     "@forsakringskassan/eslint-config-typescript": "13.5.0",
     "@forsakringskassan/eslint-config-typescript-typeinfo": "13.5.0",
     "@html-validate/release-scripts": "7.1.15",
-    "lerna": "9.0.5",
+    "lerna": "9.0.6",
     "npm-pkg-lint": "4.4.1",
     "prettier": "3.8.1"
   },
