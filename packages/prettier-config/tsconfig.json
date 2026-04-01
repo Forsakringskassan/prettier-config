@@ -9,6 +9,7 @@
 
         "emitDeclarationOnly": true,
         "declaration": true,
+        "types": ["node"],
 
         "module": "esnext",
         "moduleResolution": "bundler"
