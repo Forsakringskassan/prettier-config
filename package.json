@@ -1,6 +1,6 @@
 {
   "name": "@forsakringskassan/prettier-config-monorepo",
-  "version": "3.3.6",
+  "version": "3.3.7",
   "private": true,
   "description": "FK Prettier Config Monorepo",
   "keywords": [
