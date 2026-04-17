@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.3.8 (2026-04-17)
+
+### Bug Fixes
+
+* **@forsakringskassan/prettier-config:** fix `sort-package-json` not being run properly 77d8445
+
 ## 3.3.7 (2026-04-13)
 
 ### Bug Fixes
