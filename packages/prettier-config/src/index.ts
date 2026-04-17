@@ -1,13 +1,8 @@
 import { type Config } from "prettier";
-
-/* this import is being rewritten by build.mjs directly to the esm/cjs
- * versions, this file is only used by tsc for type-checking  */
-import { resolveModulePath } from "./resolve-module-path";
-
-const extension = process.env["EXTENSION"] ?? ".cjs";
+import sortPackageJson from "./sort-package-json";
 
 const config = {
-    plugins: [resolveModulePath(`./sort-package-json${extension}`)],
+    plugins: [sortPackageJson],
     singleQuote: false,
     arrowParens: "always",
     tabWidth: 4,

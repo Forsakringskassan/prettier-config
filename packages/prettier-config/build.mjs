@@ -1,5 +1,4 @@
 import fs from "node:fs/promises";
-import path from "node:path";
 import { build } from "esbuild";
 
 async function readJsonFile(filename) {
@@ -26,22 +25,5 @@ for (const { format, extension } of [
             ".js": extension,
         },
         external: externalDependencies,
-        define: {
-            "process.env.EXTENSION": JSON.stringify(extension),
-        },
-        plugins: [
-            {
-                name: "local/resolve-module-path",
-                setup(build) {
-                    build.onResolve({ filter: /resolve-module-path/ }, () => {
-                        return {
-                            path: path.resolve(
-                                `src/resolve-module-path.${format}.ts`,
-                            ),
-                        };
-                    });
-                },
-            },
-        ],
     });
 }
