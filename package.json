@@ -39,8 +39,8 @@
   "devDependencies": {
     "@forsakringskassan/commitlint-config": "3.3.12",
     "@forsakringskassan/eslint-config": "14.1.14",
-    "@forsakringskassan/eslint-config-typescript": "14.1.15",
-    "@forsakringskassan/eslint-config-typescript-typeinfo": "14.1.15",
+    "@forsakringskassan/eslint-config-typescript": "14.1.18",
+    "@forsakringskassan/eslint-config-typescript-typeinfo": "14.1.18",
     "@html-validate/release-scripts": "7.1.20",
     "lerna": "9.0.7",
     "npm-pkg-lint": "4.6.5",
