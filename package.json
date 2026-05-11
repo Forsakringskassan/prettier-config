@@ -37,11 +37,12 @@
     "extends": "@forsakringskassan/semantic-release-monorepo-config"
   },
   "devDependencies": {
-    "@forsakringskassan/commitlint-config": "3.3.13",
+    "@forsakringskassan/commitlint-config": "3.5.0",
     "@forsakringskassan/eslint-config": "14.1.20",
     "@forsakringskassan/eslint-config-typescript": "14.1.23",
     "@forsakringskassan/eslint-config-typescript-typeinfo": "14.1.23",
     "@html-validate/release-scripts": "7.1.20",
+    "@types/node": "20.19.40",
     "lerna": "9.0.7",
     "npm-pkg-lint": "4.6.6",
     "prettier": "3.8.3"
