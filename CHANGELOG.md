@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.3.10 (2026-05-14)
+
+### Bug Fixes
+
+* **deps:** update dependency prettier-plugin-svelte to v3.5.2 bb4ffe1
+
 ## 3.3.9 (2026-04-18)
 
 ### Bug Fixes
