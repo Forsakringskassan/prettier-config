@@ -27,7 +27,7 @@ for (const { format, extension } of [
         outdir: "dist",
         format,
         platform: "node",
-        target: "node20",
+        target: "node22",
         outExtension: {
             ".js": extension,
         },
