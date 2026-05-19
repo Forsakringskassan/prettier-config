@@ -33,7 +33,7 @@ const config = {
         {
             /* adjust width for examples so they fit in the documentation "view
              * source" container */
-            files: "**/examples/*.vue",
+            files: ["**/examples/**/*.vue", "**/src/**/docs/**/*.vue"],
             options: {
                 printWidth: 100,
             },
