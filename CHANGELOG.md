@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.5.0 (2026-05-20)
+
+### Features
+
+* **@forsakringskassan/prettier-config:** adjust example width for Vue files placed in docs folder aabde10
+
 ## 3.4.0 (2026-05-15)
 
 ### Features
