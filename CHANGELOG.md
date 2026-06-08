@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.7.0 (2026-06-08)
+
+### Features
+
+* **deps:** update dependency sort-package-json to v4 00a195b
+
 ## 3.6.3 (2026-06-07)
 
 ### Bug Fixes
