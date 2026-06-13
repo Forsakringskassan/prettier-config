@@ -44,7 +44,7 @@
     "@html-validate/release-scripts": "7.2.4",
     "@tsconfig/node22": "22.0.5",
     "@tsconfig/strictest": "2.0.8",
-    "@types/node": "22.19.20",
+    "@types/node": "22.19.21",
     "lerna": "9.0.7",
     "npm-pkg-lint": "5.1.6",
     "prettier": "3.8.4"
