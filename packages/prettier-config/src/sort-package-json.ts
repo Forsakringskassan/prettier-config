@@ -5,7 +5,7 @@ import { sortPackageJson } from "sort-package-json";
 const parser = parsers["json-stringify"];
 
 function testPath(path: string): boolean {
-    return /(^|\\|\/)package\.json$/.test(path);
+    return /(?:^|\\|\/)package\.json$/.test(path);
 }
 
 const plugin: Plugin = {
