@@ -48,7 +48,7 @@
     "@types/node": "22.20.0",
     "lerna": "9.0.7",
     "npm-pkg-lint": "5.1.9",
-    "prettier": "3.8.4"
+    "prettier": "3.8.5"
   },
   "engines": {
     "node": "^22.16 || >= 24",
