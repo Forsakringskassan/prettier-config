@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.7.4 (2026-06-30)
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v3.9.0 1b8e667
+
 ## 3.7.3 (2026-06-30)
 
 ### Bug Fixes
