@@ -23,4 +23,4 @@ jobs:
               uses: ./
             - name: ESLint
               if: success() || failure()
-              uses: Forsakringskassan/eslint-config@4691acaa0ac9e60d4227560888a8db0267b6910c # v15.6.1
+              uses: Forsakringskassan/eslint-config@70573abb18a7b15ebcad7945e20a8913e3ead5c9 # v15.6.2
