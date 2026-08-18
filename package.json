@@ -43,7 +43,7 @@
     "@forsakringskassan/eslint-config-typescript": "15.8.9",
     "@forsakringskassan/eslint-config-typescript-typeinfo": "15.8.9",
     "@html-validate/release-scripts": "7.6.0",
-    "@tsconfig/node22": "22.0.5",
+    "@tsconfig/node22": "22.0.6",
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "22.20.1",
     "@typescript/native": "npm:typescript@7.0.2",
