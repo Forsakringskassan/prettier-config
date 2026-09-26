@@ -1,6 +1,6 @@
 {
   "name": "@forsakringskassan/prettier-config",
-  "version": "3.7.10",
+  "version": "3.7.11",
   "description": "FK Prettier Config",
   "keywords": [
     "prettier"
