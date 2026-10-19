@@ -30,6 +30,11 @@
     "pretest": "npm run eslint && npm run prettier:check",
     "test": "lerna run test"
   },
+  "allowScripts": {
+    "esbuild": true,
+    "nx": false,
+    "unrs-resolver": true
+  },
   "commitlint": {
     "extends": "@forsakringskassan/commitlint-config/no-jira"
   },
@@ -55,10 +60,5 @@
   "engines": {
     "node": "^22.16 || >= 24",
     "npm": ">= 9"
-  },
-  "allowScripts": {
-    "esbuild": true,
-    "nx": false,
-    "unrs-resolver": true
   }
 }
