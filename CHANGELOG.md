@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 3.7.13 (2026-10-19)
+
+### Bug Fixes
+
+* **deps:** update dependency sort-package-json to v4.1.0 ed34d99
+
 ## 3.7.12 (2026-10-14)
 
 ### Bug Fixes
